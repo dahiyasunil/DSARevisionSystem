@@ -1,0 +1,239 @@
+{
+  "problems": [
+    {
+      "id": "p_ms5cl79k6odfs",
+      "title": "Remove Duplicates from Sorted Array",
+      "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/",
+      "pattern": "Two Pointers",
+      "difficulty": "Easy",
+      "notes": "Start both pointers from left",
+      "mistake": "",
+      "stage": 3,
+      "nextDue": "2026-08-20",
+      "lastReviewed": "2026-08-07",
+      "createdAt": "2026-07-29",
+      "history": [
+        {
+          "date": "2026-07-29",
+          "result": "pass",
+          "intervalDays": 3
+        },
+        {
+          "date": "2026-07-31",
+          "result": "pass",
+          "intervalDays": 7
+        },
+        {
+          "date": "2026-08-07",
+          "result": "pass",
+          "intervalDays": 14
+        }
+      ]
+    },
+    {
+      "id": "p_ms65li2ityy52",
+      "title": "Remove Element",
+      "link": "https://leetcode.com/problems/remove-element/description/",
+      "pattern": "Two Pointers",
+      "difficulty": "Easy",
+      "notes": "Start i & j from same position and compare each value in array with val",
+      "mistake": "",
+      "stage": 3,
+      "nextDue": "2026-08-19",
+      "lastReviewed": "2026-08-06",
+      "createdAt": "2026-07-29",
+      "history": [
+        {
+          "date": "2026-07-29",
+          "result": "pass",
+          "intervalDays": 3
+        },
+        {
+          "date": "2026-07-31",
+          "result": "pass",
+          "intervalDays": 7
+        },
+        {
+          "date": "2026-08-06",
+          "result": "pass",
+          "intervalDays": 14
+        }
+      ]
+    },
+    {
+      "id": "p_ms91dtj9c4nby",
+      "title": "Best Time to Buy and Sell Stock",
+      "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/",
+      "pattern": "Two Pointers",
+      "difficulty": "Easy",
+      "notes": "Take maxProfit as 0 and minBuy & maxSell as prices[0] initially\nthen for each price find if current price < minBuy\nelse check if current price > maxSell\nalso start iteration from 1st index",
+      "mistake": "Forgot to calculate maxProfit at each step (2 times)",
+      "stage": 3,
+      "nextDue": "2026-08-21",
+      "lastReviewed": "2026-08-08",
+      "createdAt": "2026-07-31",
+      "history": [
+        {
+          "date": "2026-07-31",
+          "result": "pass",
+          "intervalDays": 3
+        },
+        {
+          "date": "2026-08-02",
+          "result": "pass",
+          "intervalDays": 7
+        },
+        {
+          "date": "2026-08-08",
+          "result": "pass",
+          "intervalDays": 14
+        }
+      ]
+    },
+    {
+      "id": "p_msaj757easupl",
+      "title": "Merge Sorted Array",
+      "link": "https://leetcode.com/problems/merge-sorted-array/description/",
+      "pattern": "Two Pointers",
+      "difficulty": "Easy",
+      "notes": "Start comparing from end",
+      "mistake": "Condition assignment (|| instead of &&), variable assignment(--m)",
+      "stage": 3,
+      "nextDue": "2026-08-22",
+      "lastReviewed": "2026-08-09",
+      "createdAt": "2026-08-01",
+      "history": [
+        {
+          "date": "2026-08-01",
+          "result": "pass",
+          "intervalDays": 3
+        },
+        {
+          "date": "2026-08-03",
+          "result": "pass",
+          "intervalDays": 7
+        },
+        {
+          "date": "2026-08-09",
+          "result": "pass",
+          "intervalDays": 14
+        }
+      ]
+    },
+    {
+      "id": "p_msbu0vntg6tcj",
+      "title": "Move Zeroes",
+      "link": "https://leetcode.com/problems/move-zeroes/description/",
+      "pattern": "Two Pointers",
+      "difficulty": "Easy",
+      "notes": "It is same as skipping the values equals val",
+      "mistake": "",
+      "stage": 3,
+      "nextDue": "2026-08-23",
+      "lastReviewed": "2026-08-10",
+      "createdAt": "2026-08-02",
+      "history": [
+        {
+          "date": "2026-08-02",
+          "result": "pass",
+          "intervalDays": 3
+        },
+        {
+          "date": "2026-08-04",
+          "result": "pass",
+          "intervalDays": 7
+        },
+        {
+          "date": "2026-08-10",
+          "result": "pass",
+          "intervalDays": 14
+        }
+      ]
+    },
+    {
+      "id": "p_mscp27v0us18y",
+      "title": "Max Consecutive Ones",
+      "link": "https://leetcode.com/problems/max-consecutive-ones/description/",
+      "pattern": "Arrays",
+      "difficulty": "Easy",
+      "notes": "",
+      "mistake": "Final return condition, need to consider the max b/w count and maxOne while returning as well",
+      "stage": 2,
+      "nextDue": "2026-08-11",
+      "lastReviewed": "2026-08-05",
+      "createdAt": "2026-08-03",
+      "history": [
+        {
+          "date": "2026-08-03",
+          "result": "pass",
+          "intervalDays": 3
+        },
+        {
+          "date": "2026-08-05",
+          "result": "pass",
+          "intervalDays": 7
+        }
+      ]
+    },
+    {
+      "id": "p_mscw6t2cj6z9q",
+      "title": "Missing Number",
+      "link": "https://leetcode.com/problems/missing-number/",
+      "pattern": "Array",
+      "difficulty": "Easy",
+      "notes": "",
+      "mistake": "",
+      "stage": 2,
+      "nextDue": "2026-08-11",
+      "lastReviewed": "2026-08-05",
+      "createdAt": "2026-08-03",
+      "history": [
+        {
+          "date": "2026-08-03",
+          "result": "fail",
+          "intervalDays": 1
+        },
+        {
+          "date": "2026-08-03",
+          "result": "fail",
+          "intervalDays": 1
+        },
+        {
+          "date": "2026-08-03",
+          "result": "pass",
+          "intervalDays": 3
+        },
+        {
+          "date": "2026-08-05",
+          "result": "pass",
+          "intervalDays": 7
+        }
+      ]
+    },
+    {
+      "id": "p_mscx9v0rabazh",
+      "title": "Single Number",
+      "link": "https://leetcode.com/problems/single-number/description/",
+      "pattern": "Bit Manipulation",
+      "difficulty": "Easy",
+      "notes": "XOR",
+      "mistake": "Commutative:\nA xor B = B xor A (Order does not matter).\nAssociative:\n((A xor B) xor C = A xor (B xor C)) (Grouping does not matter).\nIdentity Element:\n(A xor 0 = A) (Any number XORed with zero remains unchanged).\nSelf-Inverse:\n(A xor A = 0) (Any number XORed with itself cancels out to zero)",
+      "stage": 2,
+      "nextDue": "2026-08-11",
+      "lastReviewed": "2026-08-05",
+      "createdAt": "2026-08-03",
+      "history": [
+        {
+          "date": "2026-08-03",
+          "result": "pass",
+          "intervalDays": 3
+        },
+        {
+          "date": "2026-08-05",
+          "result": "pass",
+          "intervalDays": 7
+        }
+      ]
+    }
+  ]
+}
